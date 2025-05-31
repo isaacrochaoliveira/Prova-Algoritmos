@@ -43,6 +43,7 @@ main.prova {
 
 main.prova div.perguntas {
     text-align: left;
+    padding: 25px 0px;
 }
 main.prova div.perguntas pre {
     font-size: 16px;
@@ -72,20 +73,10 @@ main.prova div.perguntas .alternativas li {
     padding-top: 6px;
 }
 
-main.prova div.perguntas input#r1 {
+main.prova div.perguntas input {
     padding: 4px 0px;
     width: 20px;
     text-align: center;
     border: 2px solid red;
     
-}
-
-/* PARTE 2 */
-
-section#parte2 {
-    padding: 30px 0px;
-}
-
-section#parte2 div.perguntas ol.alternativas {
-    padding-top: 20px;
 }
