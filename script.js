@@ -5,7 +5,9 @@ function resps() {
         } else {
             if (c == 1) {
                 if (document.getElementById('r' + c).value == "C") {
-                    alert('Você acertou a primeira pergunta!');
+                    document.getElementById('spinner').innerText = "Você acertou a 1 pergunta!";
+                } else {
+                    document.getElementById('spinner').innerHTML = "Resposta Errada!"
                 }
             }
         }
