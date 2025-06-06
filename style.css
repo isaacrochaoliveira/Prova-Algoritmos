@@ -14,6 +14,15 @@
     cursor: pointer;
 }
 
+i.fa-solid {
+    display: none;
+}
+i.text-error {
+    color: red;
+}
+i.text-success {
+    color: green;
+}
 /* CABEÇA */
 
 header {

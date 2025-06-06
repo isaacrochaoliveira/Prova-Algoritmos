@@ -5,9 +5,11 @@ function resps() {
         } else {
             if (c == 1) {
                 if (document.getElementById('r' + c).value == "C") {
-                    document.getElementById('spinner').innerText = "Você acertou a 1 pergunta!";
+                    document.getElementsByClassName('success-o3').style.display = 'inline';
                 } else {
-                    document.getElementById('spinner').innerHTML = "Resposta Errada!"
+                    document.getElementsByClassName('success-o1').style.display = 'inline';
+                    document.getElementsByClassName('success-o2').style.display = 'inline';
+                    document.getElementsByClassName('success-o4').style.display = 'inline';
                 }
             }
         }
